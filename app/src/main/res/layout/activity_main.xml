@@ -16,17 +16,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="150dp"
         app:layout_constraintBottom_toTopOf="@id/layout_next_btn"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="어르신용"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        android:layout_marginTop="20dp"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout_next_btn"
