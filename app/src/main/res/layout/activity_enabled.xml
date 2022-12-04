@@ -44,20 +44,10 @@
         android:layout_height="wrap_content"
         android:text="- 사생활 걱정이 없는, \n  생활소음만으로 안전을 관리해요\n- 집 안 온도를 관리해요\n- 창문 열림시간을 관리해요"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/layout_next_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:textColor="@color/dark_gray"
         android:textSize="16dp"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="50dp"/>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/layout_next_btn"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginBottom="120dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
