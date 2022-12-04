@@ -13,12 +13,9 @@ class MainActivity : AppCompatActivity() {
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
 
-        //어르신 전화번호 number 변수에 저장
-        var number = viewBinding.phoneNumber.text.toString()
-
         //버튼 누르면 넘어가기
-        viewBinding.saveBtn.setOnClickListener {
-            val intent = Intent(this, EnabledActivity::class.java)
+        viewBinding.nextBtn.setOnClickListener {
+            val intent = Intent(this, CodeActivity::class.java)
             startActivity(intent)
         }
     }

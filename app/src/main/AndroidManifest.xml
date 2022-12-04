@@ -13,7 +13,7 @@
         android:theme="@style/Theme.OldGuardian_UserVer"
         tools:targetApi="31">
         <activity
-            android:name=".TestActivity"
+            android:name=".CodeActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"

@@ -1,22 +1,16 @@
 package com.example.oldguardian_userver
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.oldguardian_userver.databinding.EnabledActivityBinding
+import com.example.oldguardian_userver.databinding.ActivityEnabledBinding
 
 class EnabledActivity : AppCompatActivity() {
-    private lateinit var viewBinding: EnabledActivityBinding
+    private lateinit var viewBinding: ActivityEnabledBinding
 
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
 
-        viewBinding = EnabledActivityBinding.inflate(layoutInflater)
+        viewBinding = ActivityEnabledBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
-
-        viewBinding.nextBtn.setOnClickListener {
-            val intent = Intent(this, TestActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
